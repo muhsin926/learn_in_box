@@ -291,14 +291,14 @@ export const footer = [
   },
 ];
 
-export const montors = [
+export const mentors = [
     {
       id: 1,
       photo: person1,
       name: "John Abraham",
       language: "English Language",
       native: true,
-      lesions: 825,
+      lessons: 825,
       rate: 4.5,
       reviews: 25,
       fee: 18,
@@ -311,7 +311,7 @@ export const montors = [
       name: "Mariam.V",
       language: "English Language",
       native: true,
-      lesions: 918,
+      lessons: 918,
       rate: 3.5,
       reviews: 15,
       fee: 15,
@@ -324,7 +324,7 @@ export const montors = [
       name: "Christopher",
       language: "English Language",
       native: true,
-      lesions: 500,
+      lessons: 500,
       rate: 4.5,
       reviews: 30,
       fee: 20,

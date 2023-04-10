@@ -23,7 +23,7 @@ const MiniHeader = ({ icon, title, description, round, styleTitle }) => {
     ));
   }
   return (
-    <section className="flex flex-col items-center mt-14">
+    <section className="flex flex-col items-center mt-20">
       <div
         className={`${
           round
