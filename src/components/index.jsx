@@ -7,5 +7,6 @@ import LearningProcess from "./LearningProcess/LearningProcess";
 import GuaranteeMessage from "./GuaranteeMessage/GuaranteeMessage";
 import Mentor from "./Mentor/Mentor";
 import AchievementCard from "./AchievementCard/AchievementCard";
+import Footer from "./Footer/Footer";
 
-export {Navbar, StartCourse, FindCourse, MentorSupport, FocusOnSkill, LearningProcess, GuaranteeMessage, Mentor, AchievementCard}
+export {Navbar, StartCourse, FindCourse, MentorSupport, FocusOnSkill, LearningProcess, GuaranteeMessage, Mentor, AchievementCard, Footer}

@@ -1,5 +1,5 @@
 import React from "react";
-import { AchievementCard, FindCourse, FocusOnSkill, GuaranteeMessage, LearningProcess, Mentor, MentorSupport, Navbar, StartCourse } from "./components";
+import { AchievementCard, FindCourse, FocusOnSkill, Footer, GuaranteeMessage, LearningProcess, Mentor, MentorSupport, Navbar, StartCourse } from "./components";
 
 const App = () => (
     <>
@@ -12,6 +12,7 @@ const App = () => (
       <GuaranteeMessage/>
       <Mentor/>
       <AchievementCard/>
+      <Footer/>
     </>
   );
 
