@@ -32,10 +32,23 @@ import icon_calendar from "./icons/calendarIcon.png";
 import mentor_img from "./images/mentor.png";
 import achievement_img from "./images/achievement_img.png";
 import icon_lock from "./icons/icon_lock.png";
-import person1 from './images/person1.png';
-import person2 from './images/person2.png';
-import person3 from './images/person3.png';
+import person1 from "./images/person1.png";
+import person2 from "./images/person2.png";
+import person3 from "./images/person3.png";
+import phoneIcon from "./icons/phone_icon.png";
+import twitter from "./icons/twitter.png";
+import email from "./icons/email.png";
+import linkedin from "./icons/linkedin.png";
+import instegram from "./icons/instegram.png";
+import facebook from "./icons/facebook.png";
+
 export {
+  phoneIcon,
+  twitter,
+  email,
+  linkedin,
+  instegram,
+  facebook,
   logo,
   searchIcon,
   profile,

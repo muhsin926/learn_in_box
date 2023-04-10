@@ -23,27 +23,29 @@ const MiniHeader = ({ icon, title, description, round, styleTitle }) => {
     ));
   }
   return (
-    <section className="flex flex-col items-center mt-20">
-      <div
-        className={`${
-          round
-            ? "w-12 h-12 rounded-full bg-[#3eb4be] flex items-center justify-center"
-            : "w-14 h-14"
-        }`}
-      >
-        {icon ? (
-          <img src={icon} alt="Icon" />
-        ) : (
-          <div className="w-5 h-5 rounded-full bg-white"></div>
-        )}
-      </div>
-      <div className="w-2/3 text-center mt-5">
-        <h1 className="capitalize font-semibold text-3xl">
-          {styleTitle ? newTitle : title}
-        </h1>
-      </div>
-      <div className="w-2/3 text-center mt-3">
-        <h1 className="capitalize font-medium text-xl">{description}</h1>
+    <section className="flex flex-col  items-center mt-20">
+      <div className="max-w-3xl flex flex-col items-center">
+        <div
+          className={`${
+            round
+              ? "w-12 h-12 rounded-full bg-[#3eb4be] flex items-center justify-center"
+              : "w-14 h-14"
+          }`}
+        >
+          {icon ? (
+            <img src={icon} alt="Icon" />
+          ) : (
+            <div className="w-5 h-5 rounded-full bg-white"></div>
+          )}
+        </div>
+        <div className="mx-3 text-center mt-5">
+          <h1 className="capitalize font-semibold text-3xl">
+            {styleTitle ? newTitle : title}
+          </h1>
+        </div>
+        <div className="w-2/3 text-center mt-3">
+          <h1 className="capitalize font-medium text-xl">{description}</h1>
+        </div>
       </div>
     </section>
   );

@@ -7,7 +7,7 @@ const AchievementCard = () => {
     <section className="mt-16 px-2 relative mb-10">
       <div>
         <img className="" src={achievement_img} alt="Image" />
-        <div className=" rounded absolute left-[36rem] top-[26rem] w-34 py-3 px-5 bg-gray-200">
+        <div className=" rounded absolute left-[36rem] top-[25.5rem] w-34 py-3 px-5 bg-gray-200">
           <img className="w-44" src={logo} alt="Text" />
         </div>
       </div>

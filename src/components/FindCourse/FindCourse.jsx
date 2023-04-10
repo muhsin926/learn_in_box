@@ -22,14 +22,14 @@ const FindCourse = () => {
           <input type="text" placeholder="Search Anything" />
           <img src={searchIcon} className="w-5 h-5" alt="" />
         </div>
-        <h1 className="hidden md:blcok capitalize text-zinc-700">
+        <h1 className="hidden md:block capitalize text-zinc-700">
           Or view the following courses...
         </h1>
       </div>
 
       <div className="w-full  mt-10 flex justify-center">
-        <div className="flex justify-between">
-          <div className="w-2/3 hidden sm:block">
+        <div className="w-2/3 hidden sm:block">
+          <div className="flex justify-between">
             <div>
               <ul>
                 {findCourse.slice(0, 5)?.map((course) => (

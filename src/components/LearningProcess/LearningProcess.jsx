@@ -19,10 +19,10 @@ const LearningProcess = () => {
         round={true}
         styleTitle={true}
       />
-      <section className=" mx-7 mt-10">
+      <section className=" md:mx-7 mt-10">
         {learningProcess?.map((process) => (
-          <div key={process?.id} className="grid grid-cols-12 mt-5 mx-10">
-            <div className="col-span-6 pt-5">
+          <div key={process?.id} className="grid grid-cols-12 mt-5 mx-3 md:mx-10">
+            <div className="col-span-12 md:col-span-6 pt-5">
               <div className="flex gap-3">
                 <div className="w-6 h-6 mt-1 rounded-full bg-gray-300 text-center">
                   {process?.id}
@@ -35,7 +35,7 @@ const LearningProcess = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-6 flex flex-col items-end">
+            <div className="col-span-12 md:col-span-6 flex flex-col items-end">
               {process?.image == null ? (
                 // first person
                 <>
@@ -175,7 +175,7 @@ const LearningProcess = () => {
                   </div>
                 </div>
                   {/* // third person */}
-                  <div className="flex bg-gray-200 mb-2 mx-16 rounded-lg ">
+                  <div className="flex bg-gray-200 mb-2 mx-12 rounded-lg ">
                   <img
                     className="object-cover"
                     src={mentors[2]?.photo}
