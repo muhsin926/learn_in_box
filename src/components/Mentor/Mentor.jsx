@@ -21,7 +21,7 @@ const Mentor = () => {
             {montoring?.map((data) => (
               <div key={data?.id} className="flex gap-3 mb-3 justify-center">
                 <div>
-                  <img className="w-6" src={data?.icon} alt="icon" />
+                  <img className="w-6 h-6" src={data?.icon} alt="icon" />
                 </div>
                 <div className="text-[#3eb4be] text-xl">{data?.title}</div>
               </div>

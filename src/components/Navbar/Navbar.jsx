@@ -38,7 +38,11 @@ const Navbar = () => {
           <h1 className="font-semibold">Behzad pashaei</h1>
           <h1 className="text-xs text-gray-500">ui & ux designer</h1>
         </div>
-        <img src={notification} className="md:ml-16 ml-5 w-5 h-5" alt="Notification" />
+        <img
+          src={notification}
+          className="md:ml-16 ml-5 w-5 h-5"
+          alt="Notification"
+        />
       </div>
       <div></div>
     </nav>

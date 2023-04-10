@@ -17,8 +17,7 @@ const StartCourse = () => {
     <section className="items-center grid grid-cols-12 py-10 px-14 relative">
       <div className="col-span-12 md:col-span-6 flex flex-col justify-end h-96 items-center ">
         <h1 className="font-semibold text-4xl">
-          Practical Learning Journey To
-          Earn With Fun - LearnInbox
+          Practical Learning Journey To Earn With Fun - LearnInbox
         </h1>
         <div className="flex flex-col sm:flex-row items-center mt-16">
           <Button

@@ -2,7 +2,6 @@ import React from "react";
 import Button from "../Common/Button";
 import { searchIcon } from "../../assets";
 import { findCourse } from "../../constants";
-import { Link } from "react-router-dom";
 
 const FindCourse = () => {
   return (

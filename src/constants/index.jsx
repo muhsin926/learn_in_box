@@ -292,43 +292,46 @@ export const footer = [
 ];
 
 export const mentors = [
-    {
-      id: 1,
-      photo: person1,
-      name: "John Abraham",
-      language: "English Language",
-      native: true,
-      lessons: 825,
-      rate: 4.5,
-      reviews: 25,
-      fee: 18,
-      qualification: "Certified EFL teacher with 6 years experience",
-      message: "Do you want to communicate artificially high level technical vocabulary. Are you"  
-    },
-    {
-      id: 2,
-      photo: person2,
-      name: "Mariam.V",
-      language: "English Language",
-      native: true,
-      lessons: 918,
-      rate: 3.5,
-      reviews: 15,
-      fee: 15,
-      qualification: "Certified EFL teacher with 6 years experience",
-      message: "Do you want to communicate artificially high level technical vocabulary. Are you"  
-    },
-    {
-      id: 1,
-      photo: person3,
-      name: "Christopher",
-      language: "English Language",
-      native: true,
-      lessons: 500,
-      rate: 4.5,
-      reviews: 30,
-      fee: 20,
-      qualification: "Certified EFL teacher with 6 years experience",
-      message: "Do you want to communicate artificially high level technical vocabulary. Are you"  
-    },
-]
+  {
+    id: 1,
+    photo: person1,
+    name: "John Abraham",
+    language: "English Language",
+    native: true,
+    lessons: 825,
+    rate: 4.5,
+    reviews: 25,
+    fee: 18,
+    qualification: "Certified EFL teacher with 6 years experience",
+    message:
+      "Do you want to communicate artificially high level technical vocabulary. Are you",
+  },
+  {
+    id: 2,
+    photo: person2,
+    name: "Mariam.V",
+    language: "English Language",
+    native: true,
+    lessons: 918,
+    rate: 3.5,
+    reviews: 15,
+    fee: 15,
+    qualification: "Certified EFL teacher with 6 years experience",
+    message:
+      "Do you want to communicate artificially high level technical vocabulary. Are you",
+  },
+  {
+    id: 1,
+    photo: person3,
+    name: "Christopher",
+    language: "English Language",
+    native: true,
+    lessons: 500,
+    rate: 4.5,
+    reviews: 30,
+    fee: 20,
+    qualification: "Certified EFL teacher with 6 years experience",
+    message:
+      "Do you want to communicate artificially high level technical vocabulary. Are you",
+  },
+];
