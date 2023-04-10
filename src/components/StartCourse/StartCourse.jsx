@@ -15,23 +15,23 @@ import Button from "../Common/Button";
 const StartCourse = () => {
   return (
     <section className="items-center grid grid-cols-12 py-10 px-14 relative">
-      <div className=" col-span-6 flex flex-col justify-end h-96 items-center ">
+      <div className="col-span-12 md:col-span-6 flex flex-col justify-end h-96 items-center ">
         <h1 className="font-semibold text-4xl">
-          Practical Learning Journey To <br />
+          Practical Learning Journey To
           Earn With Fun - LearnInbox
         </h1>
-        <div className="flex  items-center mt-16">
+        <div className="flex flex-col sm:flex-row items-center mt-16">
           <Button
-            title={"Start Course Now "}
+            title={"Start Course Now"}
             stlye={
               "flex items-center gap-3 bg-black text-white py-3 px-5 rounded-lg"
             }
             icon={rightArrowIcon}
           />
-          <img className="ml-12" src={booked} alt="" />
+          <img className="ml-12 sm:mt-0 mt-5 " src={booked} alt="" />
         </div>
       </div>
-      <div className="col-span-6 relative h-96  ">
+      <div className="hidden md:block col-span-6 relative h-96 min-w-[39rem] ">
         <img src={mainRound} className="absolute w-[450px] right-16" alt="" />
         <img src={shadowBg} className="absolute top-14 -right-12" alt="" />
         <img

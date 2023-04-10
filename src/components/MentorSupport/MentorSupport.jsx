@@ -12,9 +12,9 @@ const MentorSupport = () => {
                 description={"Speak naturally with professional online Mentor from 185 countries"}
                 round={true} />
             <section>
-                <div className="w-full flex px-10 grid-cols-12 mt-10">
+                <div className="w-full flex px-3 grid sm:px-10 grid-cols-12 mt-10">
                     {onlineMentor?.map((feature) => (
-                        <div key={feature?.id} className="col-span-3 flex flex-col items-center text-center p-5">
+                        <div key={feature?.id} className="md:col-span-6 col-span-12 lg:col-span-3 flex flex-col items-center text-center p-5">
                             <img className="w-12" src={feature?.icon} alt="Icon" />
                             <h2 className="capitalize font-semibold text-lg text-gray-800">
                                 {feature?.title}
@@ -27,5 +27,4 @@ const MentorSupport = () => {
         </>
     );
 };
-
 export default MentorSupport;

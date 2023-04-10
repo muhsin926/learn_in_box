@@ -5,12 +5,13 @@ import { footer } from '../../constants'
 const Footer = () => {
   return (
     <footer className='mx-10 mt-24 mb-10'>
-        <div className='grid grid-cols-12'>
+        <hr />
+        <div className='grid grid-cols-12 pt-10'>
             <div className='col-span-4'>
                 <img src={logo} alt="Logo" />
                 <p>LearnInbox platform doesn’t guarantee on your academic success. LearnInbox intended to start your own research and development.</p>
                 <div className='flex gap-3'>
-                    <img src={icon_lock} alt="Protected Icon" />
+                    <img className='w-10' src={icon_lock} alt="Protected Icon" />
                     <p>Your Information is Protected By 256-Bit SSL Encryption</p>
                 </div>
             </div>
